@@ -481,6 +481,13 @@ body {
     transform: scaleX(0.2);
   }
 
+  .navbar .navbar-extra {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    gap: 0.5rem;
+  }
+
   .about .row {
     flex-wrap: wrap;
   }
